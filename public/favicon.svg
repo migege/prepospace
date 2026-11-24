@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="162" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#27272A" />
+      <stop offset="100%" stop-color="#111114" />
+    </linearGradient>
+    <radialGradient id="orb" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#93C5FD" />
+      <stop offset="55%" stop-color="#3B6CF5" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </radialGradient>
+    <linearGradient id="topFace" x1="90" y1="32" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#3B6CF5" stop-opacity="0.16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Studio Squircle -->
+  <rect width="180" height="180" rx="40" fill="url(#bg)" />
+
+  <!-- Subtle outer frame highlight -->
+  <rect x="3" y="3" width="174" height="174" rx="37" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2" />
+
+  <!-- Isometric 3D Container Cube Back Edges -->
+  <path d="M90 34L140 62V118L90 146L40 118V62L90 34Z" fill="#3B6CF5" fill-opacity="0.12" />
+  <path d="M90 34V90M90 90L140 118M90 90L40 118" stroke="#60A5FA" stroke-opacity="0.32" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5" />
+
+  <!-- Glowing Floating Sphere INSIDE the 3D Cube -->
+  <circle cx="90" cy="92" r="24" fill="url(#orb)" />
+  <circle cx="82" cy="83" r="6" fill="#FFFFFF" fill-opacity="0.65" />
+
+  <!-- Isometric Cube Front Translucent Top & Edges -->
+  <path d="M90 34L140 62L90 90L40 62L90 34Z" fill="url(#topFace)" />
+  <path d="M90 34L140 62V118L90 146L40 118V62L90 34Z" stroke="#60A5FA" stroke-width="4.5" stroke-linejoin="round" />
+  <path d="M40 62L90 90L140 62M90 90V146" stroke="#93C5FD" stroke-opacity="0.75" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Warm Coral & Emerald Dimensional Accent Dots (ON & AT) -->
+  <circle cx="140" cy="62" r="6.5" fill="#E85D3F" />
+  <circle cx="90" cy="34" r="6.5" fill="#10B981" />
+</svg>
