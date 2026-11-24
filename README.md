@@ -13,7 +13,45 @@ An interactive Three.js web application for learning English prepositions throug
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](Dockerfile)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=flat-square)](LICENSE)
 
+<br /><br />
+
+<img src="docs/screenshots/atlas-home.png" alt="PrepoSpace Course Atlas with Interactive 3D Spatial Model" width="100%" />
+
 </div>
+
+---
+
+## Screenshots
+
+### Intermediate B1–B2 Studio
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/lesson-studio.png" alt="Lesson 3.3 — By vs. Until 3D Deadline Wall and Minimal Pairs" />
+      <p align="center"><strong>Split-Stage Lesson Studio</strong> — Live-morphing 3D Deadline Wall (<code>by</code> vs. <code>until</code> vs. <code>within</code>) with minimal pairs, audio playback, and animation scrubbing.</p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/placement-3d.png" alt="Practice Lab — 3D Click-to-Place Raycaster Arena" />
+      <p align="center"><strong>3D Click-to-Place Arena</strong> — Interactive <code>THREE.Raycaster</code> challenges where learners click directly inside 3D dioramas to match spatial sentences.</p>
+    </td>
+  </tr>
+</table>
+
+### Kids Edition — Pip’s 3D World (`/kids`, iPad-First)
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/kids-toyroom-ipad.png" alt="Pip's 3D World — Toy Room on iPad" />
+      <p align="center"><strong>Play with Pip (iPad Landscape)</strong> — Tap chunky word tiles to make Pip leap <code>in</code>, <code>on</code>, or <code>under</code> with spoken audio and 3D star confetti.</p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/kids-backyard-tap-ipad.png" alt="Pip's 3D World — Sunny House Tap 3D Hide and Seek" />
+      <p align="center"><strong>Tap 3D Hide &amp; Seek</strong> — Spin the 3D world with one finger and tap the glowing star to help Pip find <code>in front of</code>, <code>behind</code>, <code>next to</code>, and <code>between</code>.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
