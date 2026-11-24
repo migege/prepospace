@@ -3,7 +3,19 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Interactive 3D English Preposition Course for Intermediate Learners (B1-B2) powered by Three.js",
+  "description": "Interactive 3D English prepositions course (B1-B2 Studio & iPad-first Kids Edition) built with React, TypeScript, Tailwind CSS, and Three.js",
+  "keywords": [
+    "english",
+    "prepositions",
+    "language-learning",
+    "threejs",
+    "3d",
+    "react",
+    "typescript",
+    "education",
+    "ipad"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
