@@ -13,7 +13,9 @@ An interactive Three.js web application for learning English prepositions throug
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](Dockerfile)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=flat-square)](LICENSE)
 
-<br /><br />
+**Live Demo:** [prepospace.aurorabounce.com](https://prepospace.aurorabounce.com) &nbsp;·&nbsp; **Kids Edition (iPad):** [prepospace.aurorabounce.com/kids](https://prepospace.aurorabounce.com/kids)
+
+<br />
 
 <img src="docs/screenshots/atlas-home.png" alt="PrepoSpace Course Atlas with Interactive 3D Spatial Model" width="100%" />
 
